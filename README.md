@@ -2,7 +2,7 @@
 
 # Scanari AI
 
-<a href="https://github.com/scanari-ai/"><img alt="Related Repository: ScanariAI" src="https://img.shields.io/badge/Related_Repo-ScanariAI-fafbfc?logo=github"></a>
+<a href="https://github.com/scanari-ai/chat"><img alt="Related Repository: ScanariAI" src="https://img.shields.io/badge/Related_Repo-ScanariAI-fafbfc?logo=github"></a>
 <a href="https://app.scanari.org/"><img alt="Web App Deployed on GitHub Pages" src="https://img.shields.io/badge/Web_App-Deployed-32a852?logo=pwa"></a>
 
 **Private AI Conversations, Fully In-Browser.**
@@ -25,11 +25,11 @@
 - **Custom Models**: Connect to any custom language model on you local environment through [Scanari-LLM](https://app.scanari.org). For detail, check the [Use Custom Models](#use-custom-models) section.
 - **Open Source and Customizable**: Build and customize your own AI-powered applications with our open-source framework.
 
-Scanari AI is a pioneering initiative that combines the robust backend capabilities of WebLLM with the user-friendly interface of NextChat. As a part of the broader Scanari.ai family, this project contributes to our mission of democratizing AI technology by making powerful tools accessible directly to end-users. By integrating with NextChat, Scanari AI not only enhances the chatting experience but also broadens the scope for deployment of self-hosted and customizable language models.
+Scanari AI is a pioneering initiative that combines the robust backend capabilities of LLM with the user-friendly interface of NextChat. As a part of the broader Scanari.ai family, this project contributes to our mission of democratizing AI technology by making powerful tools accessible directly to end-users. By integrating with NextChat, Scanari AI not only enhances the chatting experience but also broadens the scope for deployment of self-hosted and customizable language models.
 
 ## Built-in Models
 
-Scanari AI natively supports WebLLM build-in models. You can find the full list [here](https://github.com/scanari-ai/web-llm?tab=readme-ov-file#built-in-models).
+Scanari AI natively supports LLM build-in models. You can find the full list [here](https://github.com/scanari-ai/chat?tab=readme-ov-file#built-in-models).
 
 ## Use Custom Models
 
@@ -60,17 +60,17 @@ You can build the application as a Next.js build using `yarn build` or as a stat
 ### Docker
 
 ```shell
-docker build -t webllm_chat .
-docker run -d -p 3000:3000 webllm_chat
+docker build -t scanari_chat .
+docker run -d -p 3000:3000 scanari_chat
 ```
 
 You can start service behind a proxy:
 
 ```shell
-docker build -t webllm_chat .
+docker build -t scanari_chat .
 docker run -d -p 3000:3000 \
    -e PROXY_URL=http://localhost:7890 \
-   webllm_chat
+   scanari_chat
 ```
 
 If your proxy needs password, use:
