@@ -1,7 +1,7 @@
 <div align="center">
 
 # Scanari AI
-
+![alt text](https://i.imgur.com/PIxxuOo.png)
 <a href="https://github.com/scanari-ai/chat"><img alt="Related Repository: ScanariAI" src="https://img.shields.io/badge/Related_Repo-ScanariAI-fafbfc?logo=github"></a>
 <a href="https://app.scanari.org/"><img alt="Web App Deployed on GitHub Pages" src="https://img.shields.io/badge/Web_App-Deployed-32a852?logo=pwa"></a>
 
